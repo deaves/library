@@ -459,6 +459,22 @@
       "paywalled": true
     },
     {
+      "title": "Exploring the Different Financing Models for Digital Public Infrastructure and Why They Matter",
+      "venue": "Asian Development Bank Institute",
+      "date": "2024-04-26",
+      "type": "white paper",
+      "url": "https://www.adb.org/publications/exploring-the-different-financing-models-for-digital-public-infrastructure-and-why-they-matter",
+      "coauthors": [
+        "Mansi Kedia"
+      ],
+      "summary": "An ADBI policy brief noting there is little public information on how DPIs are financed and almost no public cost estimates. Applies the strategic triangle framework — public value, operational feasibility, political support — to DPI financing choices, and urges the G20 to build know-how on financing models, including for low-income countries. Free to download.",
+      "topics": [
+        "DPI",
+        "economics"
+      ],
+      "paywalled": false
+    },
+    {
       "title": "AI Procurement Checklists: Revisiting Implementation in the Age of AI Governance",
       "venue": "arXiv",
       "date": "2024-04-23",
@@ -491,6 +507,23 @@
         "DPI"
       ],
       "paywalled": true
+    },
+    {
+      "title": "Laying the Foundation for the Future: Open Source Sustainability and the Adoption of Digital Public Goods",
+      "venue": "Think20 (T20) India / G20",
+      "date": "2023-05-01",
+      "type": "white paper",
+      "url": "https://t20ind.org/research/laying-the-foundation-for-the-future/",
+      "coauthors": [
+        "Alex Krasodomski-Jones"
+      ],
+      "summary": "A T20 policy brief arguing that open-source digital public goods present a generational opportunity for states to rewrite the rules of citizens' digital futures — but only with new models of governance and funding. Recommends a G20 working group for software DPG collaboration and sovereign and collective open technology funds. Free to download.",
+      "topics": [
+        "digital public goods",
+        "governance",
+        "open government"
+      ],
+      "paywalled": false
     },
     {
       "title": "What is digital public infrastructure?",
@@ -538,7 +571,8 @@
         "digital public goods",
         "governance"
       ],
-      "paywalled": false
+      "paywalled": false,
+      "pdf": "pdfs/best-practices-governance-digital-public-goods.pdf"
     },
     {
       "title": "Funding Digital Government Initiatives",
@@ -607,6 +641,25 @@
         "DPI"
       ],
       "paywalled": true
+    },
+    {
+      "title": "Defining Public Interest Technology",
+      "venue": "New America",
+      "date": "2020-01-22",
+      "type": "white paper",
+      "url": "https://www.newamerica.org/insights/defining-public-interest-technology/",
+      "coauthors": [
+        "Ed Felten",
+        "Tara McGuinness",
+        "Deirdre K. Mulligan",
+        "Jeremy Weinstein"
+      ],
+      "summary": "A foundational definition of public interest technology — the study and application of technology expertise to advance the public interest — co-developed by scholars from Harvard, Princeton, Berkeley, Stanford, and New America. Argues technology expertise must span both the tools of technical domains and their ethical, legal, policy, and societal dimensions.",
+      "topics": [
+        "governance",
+        "education"
+      ],
+      "paywalled": false
     },
     {
       "title": "Government as a Platform: How Policy Makers Should Think about the Foundations of Digital Public Infrastructure",
@@ -754,6 +807,20 @@
         "US"
       ],
       "paywalled": true
+    },
+    {
+      "title": "Lies, Damned Lies, and Open Data",
+      "venue": "Slate",
+      "date": "2012-09-07",
+      "type": "op-ed",
+      "url": "https://slate.com/technology/2012/09/open-data-movement-how-to-keep-information-from-being-politicized.html",
+      "coauthors": [],
+      "summary": "Argues that as open data makes government information more accessible, political conflict will shift from whether data is available to how it is collected — with the US Census as the canonical example. The future of public discourse will be shaped by new debates over what, how, and why data are collected.",
+      "topics": [
+        "open government",
+        "data"
+      ],
+      "paywalled": false
     },
     {
       "title": "After the Collapse: Open Government and the Future of Civil Service",
