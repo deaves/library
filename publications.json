@@ -593,6 +593,22 @@
       "paywalled": false
     },
     {
+      "title": "The Quest for Achieving Financial Inclusion: M-Pesa Versus UPI",
+      "venue": "Harvard Kennedy School Case Program",
+      "date": "2020-02-03",
+      "type": "teaching case",
+      "url": "https://case.hks.harvard.edu/the-quest-for-achieving-financial-inclusion-m-pesa-versus-upi/",
+      "coauthors": [
+        "Laura Winig (author)"
+      ],
+      "summary": "A World Bank analyst must decide which of two leading digital payment systems — Kenya's M-Pesa or India's UPI — deserves the Bank's support for expanding financial inclusion, comparing their business models, agent networks, and very different regulatory and corporate structures. Written by Laura Winig; David Eaves faculty lead. Available via the HKS Case Program (free review copies for educators).",
+      "topics": [
+        "payments",
+        "DPI"
+      ],
+      "paywalled": true
+    },
+    {
       "title": "Government as a Platform: How Policy Makers Should Think about the Foundations of Digital Public Infrastructure",
       "venue": "Kennedy School Review",
       "date": "2020-01-14",
@@ -677,6 +693,23 @@
       "paywalled": true
     },
     {
+      "title": "Cracking the Monolith: California's Child Welfare Services Disrupts Technology Procurement (A & B)",
+      "venue": "Harvard Kennedy School Case Program",
+      "date": "2017-07-10",
+      "type": "teaching case",
+      "url": "https://case.hks.harvard.edu/cracking-the-monolith-californias-child-welfare-services-disrupts-technology-procurement-a/",
+      "coauthors": [
+        "Anjani Datla (author)"
+      ],
+      "summary": "In 2015, California officials abandoned a half-billion-dollar ‘waterfall’ procurement for a new child welfare system in favor of a modular, agile approach never before attempted in the state's government. Students examine the incentives that drive procurement dysfunction and why agile alone is no magic bullet. Written by Anjani Datla; David Eaves faculty lead. Available via the HKS Case Program (free review copies for educators).",
+      "topics": [
+        "digital government",
+        "US",
+        "state capacity"
+      ],
+      "paywalled": true
+    },
+    {
       "title": "Do We Still Need Systems Integrators?",
       "venue": "Nextgov/FCW",
       "date": "2017-05-01",
@@ -703,6 +736,22 @@
       "topics": [
         "digital government",
         "UK"
+      ],
+      "paywalled": true
+    },
+    {
+      "title": "Hacking Bureaucracy: Reimagining California's Food Stamp Program in the Digital Age",
+      "venue": "Harvard Kennedy School Case Program",
+      "date": "2016-12-23",
+      "type": "teaching case",
+      "url": "https://case.hks.harvard.edu/hacking-bureaucracy-reimagining-californias-food-stamp-program-in-the-digital-age/",
+      "coauthors": [
+        "Laura Winig (author)"
+      ],
+      "summary": "Three former Code for America fellows spend a year using user-centered design to fix the enrollment process for CalFresh, California's food stamp program. The case asks whether a user-centered approach to policy implementation can improve social service delivery. Written by Laura Winig; David Eaves faculty lead. Available via the HKS Case Program (free review copies for educators).",
+      "topics": [
+        "digital government",
+        "US"
       ],
       "paywalled": true
     },
