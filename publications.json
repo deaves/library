@@ -2,14 +2,37 @@
   "_instructions": "This is the single source of truth for your library. Edit, correct, or replace entries here — David should verify all of these. Fields: title, venue, date (YYYY-MM-DD, use YYYY-01-01 if only year known), type (op-ed | journal article | report | working paper | teaching case | chapter | white paper), url, coauthors (array, empty if solo), summary (2-3 sentences, especially important for paywalled pieces), topics (array of tags), paywalled (true/false), featured (true to pin in the 'New & Notable' spotlight).",
   "publications": [
     {
+      "title": "Digital public infrastructure and the economics of public value: what is 'public' about DPI?",
+      "venue": "Journal of Economic Policy Reform",
+      "date": "2026-05-19",
+      "type": "journal article",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/17487870.2026.2662285",
+      "coauthors": [
+        "Mariana Mazzucato",
+        "Beatriz Vasconcellos"
+      ],
+      "summary": "Argues that digital public infrastructure should be created and governed to maximize public value, not merely regulated, and makes explicit the normative values embedded in how DPI is developed.",
+      "topics": [
+        "DPI",
+        "economics"
+      ],
+      "paywalled": false,
+      "featured": true
+    },
+    {
       "title": "Governments Can't Agree on What AI Actually Is",
       "venue": "Foreign Policy",
       "date": "2026-05-11",
       "type": "op-ed",
       "url": "https://foreignpolicy.com/2026/05/11/governance-artificial-intelligence-ai-superintelligence-agi/",
-      "coauthors": ["Sarosh Nagar"],
+      "coauthors": [
+        "Sarosh Nagar"
+      ],
       "summary": "A core obstacle to international AI coordination is that governments hold fundamentally different beliefs about what AI is — imminent superintelligence versus a slower-moving sectoral technology. These divergent framings drive divergent national strategies and make agreement on governance elusive.",
-      "topics": ["AI", "governance"],
+      "topics": [
+        "AI",
+        "governance"
+      ],
       "paywalled": true,
       "featured": true
     },
@@ -19,21 +42,14 @@
       "date": "2026-05-11",
       "type": "op-ed",
       "url": "https://www.lawfaremedia.org/article/will-ai-produce-the-next-great-divergence",
-      "coauthors": ["Sarosh Nagar"],
+      "coauthors": [
+        "Sarosh Nagar"
+      ],
       "summary": "Drawing on the 'critical junctures' framing from institutional economics, this essay argues AI could magnify small institutional differences between countries into a new global divergence, identifying four reasons AI is a uniquely powerful accelerator of institutional change.",
-      "topics": ["AI", "institutions"],
-      "paywalled": false,
-      "featured": true
-    },
-    {
-      "title": "Digital public infrastructure and the economics of public value: what is 'public' about DPI?",
-      "venue": "Journal of Economic Policy Reform",
-      "date": "2026-05-19",
-      "type": "journal article",
-      "url": "https://www.tandfonline.com/doi/full/10.1080/17487870.2026.2662285",
-      "coauthors": ["Mariana Mazzucato", "Beatriz Vasconcellos"],
-      "summary": "Argues that digital public infrastructure should be created and governed to maximize public value, not merely regulated, and makes explicit the normative values embedded in how DPI is developed.",
-      "topics": ["DPI", "economics"],
+      "topics": [
+        "AI",
+        "institutions"
+      ],
       "paywalled": false,
       "featured": true
     },
@@ -43,20 +59,17 @@
       "date": "2026-01-23",
       "type": "journal article",
       "url": "https://journals.sagepub.com/doi/10.1177/15701255251382598",
-      "coauthors": ["Ines Mergel", "Amanda Clarke", "Jordyn Fetter", "Tom Steinberg"],
+      "coauthors": [
+        "Ines Mergel",
+        "Amanda Clarke",
+        "Jordyn Fetter",
+        "Tom Steinberg"
+      ],
       "summary": "Documents the participatory action research behind the Teaching Public Service in the Digital Age project, deriving eight digital-era competencies and open teaching tools for public administration educators.",
-      "topics": ["digital government", "education"],
-      "paywalled": false
-    },
-    {
-      "title": "2025 State of Digital Public Infrastructure Report",
-      "venue": "UCL Institute for Innovation and Public Purpose",
-      "date": "2025-11-01",
-      "type": "report",
-      "url": "https://www.ucl.ac.uk/bartlett/publications/2025/nov/2025-state-digital-public-infrastructure-report",
-      "coauthors": ["Jordyn Fetter", "Krisstina Rao"],
-      "summary": "Built on the DPI Map, this report provides a global snapshot of digital ID, payments, and data-exchange systems across 210 countries, and analyzes how DPI is moving from experiment to scale.",
-      "topics": ["DPI"],
+      "topics": [
+        "digital government",
+        "education"
+      ],
       "paywalled": false
     },
     {
@@ -67,7 +80,26 @@
       "url": "https://www.techpolicy.press/the-path-to-a-sovereign-tech-stack-is-via-a-commodified-tech-stack/",
       "coauthors": [],
       "summary": "Countries pursuing expensive, incompatible 'sovereign' tech stacks risk building gilded cages. Strategic standardization and commodification of cloud infrastructure, backed by procurement power, is the more effective route to digital sovereignty.",
-      "topics": ["digital sovereignty", "infrastructure"],
+      "topics": [
+        "digital sovereignty",
+        "infrastructure"
+      ],
+      "paywalled": false
+    },
+    {
+      "title": "2025 State of Digital Public Infrastructure Report",
+      "venue": "UCL Institute for Innovation and Public Purpose",
+      "date": "2025-11-01",
+      "type": "report",
+      "url": "https://www.ucl.ac.uk/bartlett/publications/2025/nov/2025-state-digital-public-infrastructure-report",
+      "coauthors": [
+        "Jordyn Fetter",
+        "Krisstina Rao"
+      ],
+      "summary": "Built on the DPI Map, this report provides a global snapshot of digital ID, payments, and data-exchange systems across 210 countries, and analyzes how DPI is moving from experiment to scale.",
+      "topics": [
+        "DPI"
+      ],
       "paywalled": false
     },
     {
@@ -76,9 +108,15 @@
       "date": "2025-11-01",
       "type": "report",
       "url": "https://www.ucl.ac.uk/bartlett/publications/2025/nov/bottom-approach-building-climate-resilience-stack",
-      "coauthors": ["Beatriz Vasconcellos", "Liam Orme"],
+      "coauthors": [
+        "Beatriz Vasconcellos",
+        "Liam Orme"
+      ],
       "summary": "Proposes the digital technologies and shared infrastructure — a 'climate resilience stack' — that could underpin climate monitoring and adaptation, built bottom-up from existing deployments. Prepared for COP30.",
-      "topics": ["climate", "DPI"],
+      "topics": [
+        "climate",
+        "DPI"
+      ],
       "paywalled": false
     },
     {
@@ -87,9 +125,15 @@
       "date": "2025-06-25",
       "type": "white paper",
       "url": "https://lisboncouncil.net/the-service-gap-europe-international-digital-strategy-2025/",
-      "coauthors": ["Mike Bracken", "Michelle Wronski"],
+      "coauthors": [
+        "Mike Bracken",
+        "Michelle Wronski"
+      ],
       "summary": "Responds to the EU's International Digital Strategy, arguing Europe's competitiveness and 'reliable partner' ambitions are undermined by a gap in actual digital service delivery capability.",
-      "topics": ["Europe", "digital government"],
+      "topics": [
+        "Europe",
+        "digital government"
+      ],
       "paywalled": false
     },
     {
@@ -98,9 +142,14 @@
       "date": "2025-04-02",
       "type": "op-ed",
       "url": "https://www.lawfaremedia.org/article/learning-from-the-legacy-of-18f",
-      "coauthors": ["Hillary Hartley"],
+      "coauthors": [
+        "Hillary Hartley"
+      ],
       "summary": "After the shutdown of 18F in March 2025, examines the unit's origins, what worked and what didn't, and lessons for future government digital service teams.",
-      "topics": ["digital government", "US"],
+      "topics": [
+        "digital government",
+        "US"
+      ],
       "paywalled": false
     },
     {
@@ -109,21 +158,34 @@
       "date": "2025-03-01",
       "type": "report",
       "url": "https://www.ucl.ac.uk/bartlett/publications/2025/mar/economics-shared-digital-infrastructures",
-      "coauthors": ["Diane Coyle", "Beatriz Vasconcellos", "Sumedha Deshmukh"],
+      "coauthors": [
+        "Diane Coyle",
+        "Beatriz Vasconcellos",
+        "Sumedha Deshmukh"
+      ],
       "summary": "Develops an economic framework for how governments should value, fund, and account for shared digital infrastructure. Has informed engagement with the World Bank, UK Treasury, and the G20 Digital Economy Working Group.",
-      "topics": ["DPI", "economics"],
+      "topics": [
+        "DPI",
+        "economics"
+      ],
       "paywalled": false
     },
     {
-      "title": "Digital Public Infrastructure: a framework for conceptualisation and measurement",
-      "venue": "UCL IIPP Working Paper Series",
-      "date": "2025-01-27",
-      "type": "working paper",
-      "url": "https://www.ucl.ac.uk/bartlett/publications/2025/jan/digital-public-infrastructure-framework-conceptualisation-and-measurement",
-      "coauthors": ["Krisstina Rao"],
-      "summary": "Uses a grounded-theory approach to define DPI's attributes across technology, public-interest values, and adoption context, plus the measurement framework underlying the DPI Map methodology.",
-      "topics": ["DPI", "measurement"],
-      "paywalled": false
+      "title": "How to Achieve Universal Access to Digital IDs",
+      "venue": "Project Syndicate",
+      "date": "2025-02-27",
+      "type": "op-ed",
+      "url": "https://www.project-syndicate.org/commentary/principles-for-designing-reliable-digital-id-systems-by-david-eaves-and-luanna-roncaratti-2025-02",
+      "coauthors": [
+        "Luanna Roncaratti"
+      ],
+      "summary": "Proposes five guiding principles for designing reliable digital ID systems: minimizing data collection, engaging civil society, lowering costs through open-source ecosystems, strengthening global standards, and sustaining international support. With roughly 850 million people lacking legal identification, universal digital ID access by 2030 is within reach if systems are tailored to national contexts.",
+      "topics": [
+        "digital identity",
+        "DPI",
+        "governance"
+      ],
+      "paywalled": true
     },
     {
       "title": "AI's Efficiency Wars Have Begun",
@@ -131,10 +193,83 @@
       "date": "2025-02-05",
       "type": "op-ed",
       "url": "https://foreignpolicy.com/2025/02/05/deep-seek-china-us-artificial-intelligence-ai-arms-race/",
-      "coauthors": ["Sarosh Nagar"],
+      "coauthors": [
+        "Sarosh Nagar"
+      ],
       "summary": "On DeepSeek-R1's release and how dramatically cheaper inference shifts the US–China AI race from raw capability toward efficiency competition, with implications for governments everywhere.",
-      "topics": ["AI", "geopolitics"],
+      "topics": [
+        "AI",
+        "geopolitics"
+      ],
       "paywalled": true
+    },
+    {
+      "title": "Digital Public Infrastructure: a framework for conceptualisation and measurement",
+      "venue": "UCL IIPP Working Paper Series",
+      "date": "2025-01-27",
+      "type": "working paper",
+      "url": "https://www.ucl.ac.uk/bartlett/publications/2025/jan/digital-public-infrastructure-framework-conceptualisation-and-measurement",
+      "coauthors": [
+        "Krisstina Rao"
+      ],
+      "summary": "Uses a grounded-theory approach to define DPI's attributes across technology, public-interest values, and adoption context, plus the measurement framework underlying the DPI Map methodology.",
+      "topics": [
+        "DPI",
+        "measurement"
+      ],
+      "paywalled": false
+    },
+    {
+      "title": "Unpacking Digital ID Systems' Early Policy Process: The Case of Jamaica's NIDS",
+      "venue": "Technology and Regulation",
+      "date": "2025-01-14",
+      "type": "journal article",
+      "url": "https://techreg.org/article/view/18965",
+      "coauthors": [
+        "Beatriz Vasconcellos",
+        "Matthew McNaughton",
+        "Giulia Lanzuolo"
+      ],
+      "summary": "Analyzes the early policy process behind Jamaica's National Identification System (NIDS), unpacking the political, legal, and administrative complexity of digital ID policy design. Conceptualizes four tensions that emerge during the process and draws lessons for more accountable, just, and inclusive ID system design. Open access.",
+      "topics": [
+        "digital identity",
+        "DPI",
+        "governance"
+      ],
+      "paywalled": false
+    },
+    {
+      "title": "What Is Digital Public Infrastructure and Why Does It Matter?",
+      "venue": "World Economic Forum",
+      "date": "2024-12-19",
+      "type": "op-ed",
+      "url": "https://www.weforum.org/stories/2024/12/can-digital-public-infrastructure-help-guide-the-transformation/",
+      "coauthors": [
+        "Krisstina Rao"
+      ],
+      "summary": "Explains what distinguishes DPI from earlier e-government efforts: it digitizes critical societal functions like identity, payments, and data sharing rather than specific services, and combines an infrastructural role with public-interest governance. Draws on the DPI Map to show DPI is more widespread than assumed.",
+      "topics": [
+        "DPI",
+        "digital government",
+        "payments"
+      ],
+      "paywalled": false
+    },
+    {
+      "title": "An Agentic Shield? Using AI Agents to Enhance the Cybersecurity of Digital Public Infrastructure",
+      "venue": "New America",
+      "date": "2024-12-19",
+      "type": "op-ed",
+      "url": "https://www.newamerica.org/digital-impact-governance-initiative/blog/an-agentic-shield-using-ai/",
+      "coauthors": [
+        "Sarosh Nagar"
+      ],
+      "summary": "Outlines how autonomous AI agents could strengthen the cybersecurity of digital public infrastructure, from detecting zero-day vulnerabilities and red-teaming to real-time defense. Cautions that agents are themselves vulnerable to attacks like prompt injection, and recommends governments pilot agents in low-risk use cases.",
+      "topics": [
+        "AI",
+        "DPI"
+      ],
+      "paywalled": false
     },
     {
       "title": "Digital Public Infrastructure is the New Global Tech Bet — But Everyone's Betting on Something Different",
@@ -142,10 +277,115 @@
       "date": "2024-12-18",
       "type": "op-ed",
       "url": "https://www.techpolicy.press/digital-public-infrastructure-is-the-new-global-tech-bet-but-everyones-betting-on-something-different/",
-      "coauthors": ["Beatriz Vasconcellos"],
+      "coauthors": [
+        "Beatriz Vasconcellos"
+      ],
       "summary": "Countries pursue DPI for divergent goals — financial inclusion, competition, economic integration. Uses Brazil's PIX and India's UPI to illustrate diverging outcomes and expectations.",
-      "topics": ["DPI"],
+      "topics": [
+        "DPI"
+      ],
       "paywalled": false
+    },
+    {
+      "title": "Interactions Between Artificial Intelligence and Digital Public Infrastructure: Concepts, Benefits, and Challenges",
+      "venue": "arXiv",
+      "date": "2024-12-07",
+      "type": "working paper",
+      "url": "https://arxiv.org/abs/2412.05761",
+      "coauthors": [
+        "Sarosh Nagar"
+      ],
+      "summary": "Explores how AI and digital public infrastructure can mutually enhance each other's public value: AI can improve DPI functions through use cases like machine translation and personalized service delivery, while DPI can supply the data foundations for better AI systems. Also catalogs integration challenges, including inference costs, legacy interoperability, bias, and privacy.",
+      "topics": [
+        "AI",
+        "DPI",
+        "data"
+      ],
+      "paywalled": false
+    },
+    {
+      "title": "Leveraging Digital Public Infrastructures for the Common Good in Brazil",
+      "venue": "UCL IIPP Working Paper Series",
+      "date": "2024-11-20",
+      "type": "working paper",
+      "url": "https://www.ucl.ac.uk/bartlett/public-purpose/publications/2024/nov/leveraging-digital-public-infrastructures-common-good",
+      "coauthors": [
+        "Mariana Mazzucato",
+        "Giulia Pagliarini"
+      ],
+      "summary": "Explores how Brazil can design and govern digital public infrastructure according to 'common good' principles to support inclusive and sustainable economic transformation, using Brazil's Rural Environmental Registry (CAR) as a case study. Builds on a partnership between UCL IIPP and Brazil's Ministry of Management and Innovation in Public Services.",
+      "topics": [
+        "DPI",
+        "economics",
+        "governance"
+      ],
+      "paywalled": false
+    },
+    {
+      "title": "The Narrow Corridor and the Future of Digital Government",
+      "venue": "UCL IIPP Blog",
+      "date": "2024-08-30",
+      "type": "op-ed",
+      "url": "https://medium.com/iipp-blog/the-narrow-corridor-and-the-future-of-digital-government-cf66718d3781",
+      "coauthors": [],
+      "summary": "Applies Acemoglu and Robinson's 'narrow corridor' framework to digital government, arguing that new digital state capabilities such as digital identity and digital currencies can create enormous public value but also enable abuse. Proposes a matrix for thinking about futures in which state capacity and society's ability to constrain the state must grow in tandem.",
+      "topics": [
+        "state capacity",
+        "digital government",
+        "governance"
+      ],
+      "paywalled": false
+    },
+    {
+      "title": "Central Banks in a Cashless World",
+      "venue": "Project Syndicate",
+      "date": "2024-04-26",
+      "type": "op-ed",
+      "url": "https://www.project-syndicate.org/commentary/central-banks-should-create-shape-digital-payments-infrastructure-by-mariana-mazzucato-and-david-eaves-2024-04",
+      "coauthors": [
+        "Mariana Mazzucato"
+      ],
+      "summary": "Argues that as cashless transactions rapidly replace physical cash, central banks have an opportunity to serve the public interest by providing or shaping the infrastructure on which digital-payment systems are built — which will require abandoning outdated assumptions about money and re-imagining central banks as market shapers.",
+      "topics": [
+        "payments",
+        "economics",
+        "DPI"
+      ],
+      "paywalled": true
+    },
+    {
+      "title": "AI Procurement Checklists: Revisiting Implementation in the Age of AI Governance",
+      "venue": "arXiv",
+      "date": "2024-04-23",
+      "type": "working paper",
+      "url": "https://arxiv.org/abs/2404.14660",
+      "coauthors": [
+        "Tom Zick",
+        "Mason Kortz",
+        "Finale Doshi-Velez"
+      ],
+      "summary": "Examines how governments regulate public-sector AI procurement, drawing on officials in Brazil, Singapore, and Canada and analyzing the Canadian Directive on Automated Decision-Making and the WEF's AI Procurement in a Box. Identifies three pitfalls — around expertise, risk frameworks, and transparency — that can make AI procurement regulation performative rather than effective.",
+      "topics": [
+        "AI",
+        "governance",
+        "digital government"
+      ],
+      "paywalled": false
+    },
+    {
+      "title": "David Eaves on the Promise and Pitfalls of Digital Government",
+      "venue": "The Economist (By Invitation)",
+      "date": "2023-07-05",
+      "type": "op-ed",
+      "url": "https://www.economist.com/by-invitation/2023/07/05/david-eaves-on-the-promise-and-pitfalls-of-digital-government",
+      "coauthors": [],
+      "summary": "A guest essay surveying the rise of digital government and digital public infrastructure, noting that digitisation is taking on a geopolitical hue as big economies encode their values into digital infrastructure and export it. Calls for more debate over whether new digital state capabilities will expand or limit access to services, opportunity, and democratic values.",
+      "topics": [
+        "digital government",
+        "geopolitics",
+        "DPI"
+      ],
+      "paywalled": true
     },
     {
       "title": "What is digital public infrastructure?",
@@ -153,9 +393,28 @@
       "date": "2023-04-05",
       "type": "op-ed",
       "url": "https://medium.com/iipp-blog/what-is-digital-public-infrastructure-6fbfa74f2f8c",
-      "coauthors": ["Jordan Sandman"],
+      "coauthors": [
+        "Jordan Sandman"
+      ],
       "summary": "Defines DPI as society-wide digital capabilities essential to participation in society and markets, and argues public institutions should guarantee DPI is inclusive, foundational, interoperable, and publicly accountable.",
-      "topics": ["DPI"],
+      "topics": [
+        "DPI"
+      ],
+      "paywalled": false
+    },
+    {
+      "title": "The Digital Systems Every Country Needs to Succeed in the 21st Century",
+      "venue": "Ash Center, Harvard Kennedy School",
+      "date": "2022-05-25",
+      "type": "op-ed",
+      "url": "https://ash.harvard.edu/digital-systems-every-country-needs-succeed-21st-century",
+      "coauthors": [],
+      "summary": "Argues that the COVID-19 pandemic showed digital identity, payments, and data exchange systems are critical 21st-century infrastructure, and that governments' siloed approach to digital services is wasteful and unsustainable, especially for emerging markets. Calls for an open, well-governed digital public infrastructure model that supports equity, accountability, and country agency.",
+      "topics": [
+        "DPI",
+        "digital government",
+        "state capacity"
+      ],
       "paywalled": false
     },
     {
@@ -164,9 +423,103 @@
       "date": "2022-04-01",
       "type": "report",
       "url": "https://www.hks.harvard.edu/publications/best-practices-governance-digital-public-goods",
-      "coauthors": ["Leonie Bolte", "Omayra Chuquihuara", "Surabhi Hodigere"],
+      "coauthors": [
+        "Leonie Bolte",
+        "Omayra Chuquihuara",
+        "Surabhi Hodigere"
+      ],
       "summary": "Identifies six best practices for governing open-source digital public goods, analyzed through Mark Moore's strategic triangle: public value, legitimacy and support, and operational capability.",
-      "topics": ["digital public goods", "governance"],
+      "topics": [
+        "digital public goods",
+        "governance"
+      ],
+      "paywalled": false
+    },
+    {
+      "title": "Funding Digital Government Initiatives",
+      "venue": "Harvard Ash Center",
+      "date": "2021-02-04",
+      "type": "op-ed",
+      "url": "https://harvardash.medium.com/funding-digital-government-initiatives-26a96bc23afc",
+      "coauthors": [
+        "Emily Middleton",
+        "Claire Bedoui",
+        "Rohan Sandhu"
+      ],
+      "summary": "Reports on a closed-door roundtable of major donors in the digital government space, structured around a 2x2 model of funding choices: internal digital teams versus vendors, and multi-sector platforms versus sector-specific projects. Finds funders shifting toward cross-government platforms and internal capacity, while lacking clear strategies.",
+      "topics": [
+        "digital government",
+        "economics",
+        "DPI"
+      ],
+      "paywalled": false
+    },
+    {
+      "title": "Deploying the Once-Only Policy: A Privacy-Enhancing Guide for Policymakers and Civil Society Actors",
+      "venue": "Ash Center, Harvard Kennedy School",
+      "date": "2020-11-01",
+      "type": "report",
+      "url": "https://ash.harvard.edu/publications/deploying-once-only-policy",
+      "coauthors": [
+        "Naeha Rashid"
+      ],
+      "summary": "A policy brief on the 'once-only' policy, under which citizens and businesses provide their data to government a single time and agencies share and reuse it to deliver better services. Examines how to deploy once-only in a privacy-enhancing way. Authored by Naeha Rashid as part of the digital HKS policy brief series led by Eaves.",
+      "topics": [
+        "data",
+        "digital government",
+        "governance"
+      ],
+      "paywalled": false
+    },
+    {
+      "title": "Teaching Public Service in the Digital Age: Syllabus Lectures",
+      "venue": "Teaching Public Service in the Digital Age",
+      "date": "2020-06-01",
+      "type": "resource",
+      "url": "https://www.teachingpublicservice.digital/syllabus-lectures",
+      "coauthors": [
+        "Tom Loosemore"
+      ],
+      "summary": "An open teaching resource offering detailed lesson plans, presentations, and more than 80 video lectures covering the eight-unit Teaching Public Service in the Digital Age syllabus, which David Eaves co-founded. The lectures span digital-era government topics from government as a platform and agile delivery to data, security, and digital transformation strategy.",
+      "topics": [
+        "education",
+        "digital government"
+      ],
+      "paywalled": false
+    },
+    {
+      "title": "Government as a Platform: How Policy Makers Should Think about the Foundations of Digital Public Infrastructure",
+      "venue": "Kennedy School Review",
+      "date": "2020-01-14",
+      "type": "journal article",
+      "url": "https://studentreview.hks.harvard.edu/government-as-a-platform-how-policy-makers-should-think-about-the-foundations-of-digital-public-infrastructure/",
+      "coauthors": [
+        "Richard Pope",
+        "Ben McGuire"
+      ],
+      "summary": "Argues that siloed, agency-by-agency digitization has duplicated costs and fragmented government services, and makes the case for a platform model built on shared APIs, open standards, and canonical datasets, drawing on Estonia's X-Road and India's experience. Also flags governance risks, including institutional design, citizen privacy, and the power of agencies that control core platforms.",
+      "topics": [
+        "DPI",
+        "digital government",
+        "governance"
+      ],
+      "paywalled": false
+    },
+    {
+      "title": "The State of Digital Transformation (report series)",
+      "venue": "digital HKS, Harvard Kennedy School",
+      "date": "2018-10-01",
+      "type": "report",
+      "url": "https://medium.com/digitalhks/digitaltransformationreports/home",
+      "coauthors": [
+        "Ben McGuire",
+        "Lauren Lombardo"
+      ],
+      "summary": "An annual report series capturing insights from the digital services convening that Eaves co-hosted with Public Digital, bringing together leaders of national and subnational digital service teams from over 30 governments. The reports document shared challenges and emerging practice in digital transformation, including funding models, platform governance, talent, and service delivery.",
+      "topics": [
+        "digital government",
+        "state capacity"
+      ],
       "paywalled": false
     },
     {
@@ -175,10 +528,29 @@
       "date": "2018-01-01",
       "type": "teaching case",
       "url": "https://case.hks.harvard.edu/aadhaar-indias-big-experiment-with-unique-identification-a/",
-      "coauthors": ["Daniel Goldberg"],
+      "coauthors": [
+        "Daniel Goldberg"
+      ],
       "summary": "Examines India's biometric ID system: its promise for service delivery and anti-corruption versus surveillance and exclusion risks.",
-      "topics": ["digital identity", "India"],
+      "topics": [
+        "digital identity",
+        "India"
+      ],
       "paywalled": true
+    },
+    {
+      "title": "Do We Still Need Systems Integrators?",
+      "venue": "Nextgov/FCW",
+      "date": "2017-05-01",
+      "type": "op-ed",
+      "url": "https://www.nextgov.com/modernization/2017/05/do-we-still-need-systems-integrators/240752/",
+      "coauthors": [],
+      "summary": "Argues that systems integrators are a symptom of poor systems architecture: modern government IT should be designed from the outset to expose data and functionality through APIs, as Amazon did under Bezos's famous internal mandate. No newly built government system should require a systems integrator.",
+      "topics": [
+        "digital government",
+        "state capacity"
+      ],
+      "paywalled": false
     },
     {
       "title": "UK Government Digital Service: Moving Beyond a Website",
@@ -186,9 +558,29 @@
       "date": "2017-01-01",
       "type": "teaching case",
       "url": "https://case.hks.harvard.edu/uk-government-digital-service-moving-beyond-a-website/",
-      "coauthors": ["Daniel Goldberg"],
+      "coauthors": [
+        "Daniel Goldberg"
+      ],
       "summary": "Charts the UK Government Digital Service's evolution from GOV.UK toward platform services, and the institutional battles that followed.",
-      "topics": ["digital government", "UK"],
+      "topics": [
+        "digital government",
+        "UK"
+      ],
+      "paywalled": true
+    },
+    {
+      "title": "After the Collapse: Open Government and the Future of Civil Service",
+      "venue": "O'Reilly Media, in 'Open Government'",
+      "date": "2010-02-01",
+      "type": "chapter",
+      "url": "https://www.oreilly.com/library/view/open-government/9781449381936/ch12.html",
+      "coauthors": [],
+      "summary": "A chapter arguing that governments remain 'analog systems' in structure, values, and culture, and that forces like social media and open source are pushing them toward a platform model. Explores what the Coasean collapse, the long tail of public policy, and gift-economy norms mean for the future of the civil service.",
+      "topics": [
+        "open government",
+        "digital government",
+        "governance"
+      ],
       "paywalled": true
     }
   ]
