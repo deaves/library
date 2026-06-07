@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Writing &amp; Publications — David Eaves</title>
+<meta name="description" content="A library of articles, reports, and papers by David Eaves on digital government, digital public infrastructure, and technology policy.">
+<style>
+  :root {
+    --ink: #1d2129;
+    --ink-soft: #4b5563;
+    --ink-faint: #8b93a1;
+    --paper: #faf9f6;
+    --card: #ffffff;
+    --accent: #1a5e63;
+    --accent-soft: #e3efef;
+    --rule: #e4e1da;
+    --new: #b4541f;
+    --new-soft: #fdf0e7;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    background: var(--paper);
+    color: var(--ink);
+    line-height: 1.6;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 0 24px; }
+
+  header.site { padding: 56px 0 32px; border-bottom: 3px double var(--rule); }
+  header.site h1 { font-size: 2.1rem; font-weight: normal; letter-spacing: -0.01em; }
+  header.site p.tag {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: var(--ink-soft); font-size: 0.95rem; margin-top: 8px; max-width: 56ch;
+  }
+  header.site a { color: var(--accent); }
+
+  /* New & Notable */
+  section.featured { padding: 36px 0 8px; }
+  .kicker {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 0.72rem; font-weight: 700; letter-spacing: 0.14em;
+    text-transform: uppercase; color: var(--new); margin-bottom: 16px;
+  }
+  .featured-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+  .feat-card {
+    background: var(--card); border: 1px solid var(--rule); border-top: 3px solid var(--new);
+    padding: 20px; border-radius: 4px; display: flex; flex-direction: column;
+  }
+  .feat-card .venue-line {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--ink-faint); margin-bottom: 8px;
+  }
+  .feat-card h3 { font-size: 1.08rem; font-weight: 600; line-height: 1.35; margin-bottom: 8px; }
+  .feat-card h3 a { color: var(--ink); text-decoration: none; }
+  .feat-card h3 a:hover { color: var(--accent); text-decoration: underline; }
+  .feat-card p.sum { font-size: 0.9rem; color: var(--ink-soft); flex: 1; }
+  .feat-card .meta { margin-top: 12px; }
+
+  /* Controls */
+  .controls {
+    margin: 36px 0 8px; padding: 16px; background: var(--card);
+    border: 1px solid var(--rule); border-radius: 4px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+    position: sticky; top: 0; z-index: 5;
+  }
+  .controls input[type="search"] {
+    flex: 1 1 220px; padding: 8px 12px; font-size: 0.9rem;
+    border: 1px solid var(--rule); border-radius: 4px; background: var(--paper);
+  }
+  .controls select {
+    padding: 8px 10px; font-size: 0.85rem; border: 1px solid var(--rule);
+    border-radius: 4px; background: var(--paper); color: var(--ink);
+  }
+  .controls .count { font-size: 0.8rem; color: var(--ink-faint); margin-left: auto; white-space: nowrap; }
+  .controls button.clear {
+    font-size: 0.8rem; border: none; background: none; color: var(--accent);
+    cursor: pointer; text-decoration: underline; padding: 4px;
+  }
+  .viewtoggle { display: inline-flex; border: 1px solid var(--rule); border-radius: 4px; overflow: hidden; }
+  .viewtoggle button {
+    font-size: 0.8rem; font-weight: 600; padding: 8px 12px; border: none;
+    background: var(--paper); color: var(--ink-soft); cursor: pointer;
+  }
+  .viewtoggle button.active { background: var(--accent); color: #fff; }
+
+  /* Library list */
+  section.library { padding-bottom: 80px; }
+  h2.year {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 0.95rem; font-weight: 700; letter-spacing: 0.1em;
+    color: var(--ink-faint); margin: 40px 0 4px; padding-bottom: 6px;
+    border-bottom: 1px solid var(--rule);
+  }
+  article.pub { padding: 20px 0; border-bottom: 1px solid var(--rule); }
+  article.pub:last-child { border-bottom: none; }
+  .pub .venue-line {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--ink-faint); margin-bottom: 4px;
+  }
+  .pub h3 { font-size: 1.15rem; font-weight: 600; line-height: 1.35; }
+  .pub h3 a { color: var(--ink); text-decoration: none; }
+  .pub h3 a:hover { color: var(--accent); text-decoration: underline; }
+  .pub .authors { font-size: 0.88rem; color: var(--ink-soft); font-style: italic; margin-top: 2px; }
+  .pub p.sum { font-size: 0.93rem; color: var(--ink-soft); margin-top: 8px; max-width: 70ch; }
+  .meta { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; font-family: 'Helvetica Neue', Arial, sans-serif; }
+  .chip {
+    font-size: 0.7rem; font-weight: 600; letter-spacing: 0.04em;
+    padding: 2px 9px; border-radius: 99px; background: var(--accent-soft); color: var(--accent);
+  }
+  .chip.type { background: #eef0f3; color: var(--ink-soft); }
+  .chip.paywall { background: var(--new-soft); color: var(--new); }
+  .empty {
+    padding: 60px 0; text-align: center; color: var(--ink-faint);
+    font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 0.95rem;
+  }
+  footer.site {
+    border-top: 3px double var(--rule); padding: 28px 0 56px;
+    font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 0.85rem; color: var(--ink-faint);
+  }
+  footer.site a { color: var(--accent); }
+  @media (max-width: 560px) {
+    header.site { padding: 36px 0 24px; }
+    header.site h1 { font-size: 1.6rem; }
+    .controls { position: static; }
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="site">
+    <h1>Writing &amp; Publications</h1>
+    <p class="tag">Articles, reports, and papers by <a href="https://eaves.ca/about-david/">David Eaves</a> on digital government, digital public infrastructure, and technology policy. For blog posts, see <a href="https://eaves.ca">eaves.ca</a>.</p>
+  </header>
+
+  <section class="featured" id="featured">
+    <p class="kicker">New &amp; Notable</p>
+    <div class="featured-grid" id="featuredGrid"></div>
+  </section>
+
+  <div class="controls" id="controls">
+    <span class="viewtoggle" role="group" aria-label="Organize publications">
+      <button id="viewDate" class="active">By date</button>
+      <button id="viewType">By type</button>
+    </span>
+    <input type="search" id="q" placeholder="Search titles, summaries, co-authors…" aria-label="Search publications">
+    <select id="fType" aria-label="Filter by category"><option value="">All categories</option></select>
+    <select id="fTopic" aria-label="Filter by topic"><option value="">All topics</option></select>
+    <select id="fYear" aria-label="Filter by year"><option value="">All years</option></select>
+    <button class="clear" id="clearBtn" hidden>Clear filters</button>
+    <span class="count" id="count"></span>
+  </div>
+
+  <section class="library" id="library"></section>
+
+  <footer class="site">
+    <p>&copy; David Eaves · <a href="https://eaves.ca">eaves.ca</a> · Some linked pieces sit behind publisher paywalls; summaries are provided so you know what each is about.</p>
+  </footer>
+</div>
+
+<script>
+/* ============================================================
+   TO UPDATE THE LIBRARY: edit publications.json in this repo —
+   do NOT edit this file. The PUBS array below is only a fallback
+   used when the page is opened directly from disk (no server).
+   Keeping it roughly in sync is nice but not required.
+   ============================================================ */
+const PUBS = [
+  {"title":"Governments Can't Agree on What AI Actually Is","venue":"Foreign Policy","date":"2026-05-11","type":"op-ed","url":"https://foreignpolicy.com/2026/05/11/governance-artificial-intelligence-ai-superintelligence-agi/","coauthors":["Sarosh Nagar"],"summary":"A core obstacle to international AI coordination is that governments hold fundamentally different beliefs about what AI is — imminent superintelligence versus a slower-moving sectoral technology. These divergent framings drive divergent national strategies and make agreement on governance elusive.","topics":["AI","governance"],"paywalled":true,"featured":true},
+  {"title":"Will AI Produce the Next Great Divergence?","venue":"Lawfare","date":"2026-05-11","type":"op-ed","url":"https://www.lawfaremedia.org/article/will-ai-produce-the-next-great-divergence","coauthors":["Sarosh Nagar"],"summary":"Drawing on the 'critical junctures' framing from institutional economics, this essay argues AI could magnify small institutional differences between countries into a new global divergence, identifying four reasons AI is a uniquely powerful accelerator of institutional change.","topics":["AI","institutions"],"paywalled":false,"featured":true},
+  {"title":"Digital public infrastructure and the economics of public value: what is 'public' about DPI?","venue":"Journal of Economic Policy Reform","date":"2026-05-19","type":"journal article","url":"https://www.tandfonline.com/doi/full/10.1080/17487870.2026.2662285","coauthors":["Mariana Mazzucato","Beatriz Vasconcellos"],"summary":"Argues that digital public infrastructure should be created and governed to maximize public value, not merely regulated, and makes explicit the normative values embedded in how DPI is developed.","topics":["DPI","economics"],"paywalled":false,"featured":true},
+  {"title":"Teaching Public Service in the Digital Age: Collectively Building a Global Curriculum","venue":"Information Polity","date":"2026-01-23","type":"journal article","url":"https://journals.sagepub.com/doi/10.1177/15701255251382598","coauthors":["Ines Mergel","Amanda Clarke","Jordyn Fetter","Tom Steinberg"],"summary":"Documents the participatory action research behind the Teaching Public Service in the Digital Age project, deriving eight digital-era competencies and open teaching tools for public administration educators.","topics":["digital government","education"],"paywalled":false},
+  {"title":"2025 State of Digital Public Infrastructure Report","venue":"UCL Institute for Innovation and Public Purpose","date":"2025-11-01","type":"report","url":"https://www.ucl.ac.uk/bartlett/publications/2025/nov/2025-state-digital-public-infrastructure-report","coauthors":["Jordyn Fetter","Krisstina Rao"],"summary":"Built on the DPI Map, this report provides a global snapshot of digital ID, payments, and data-exchange systems across 210 countries, and analyzes how DPI is moving from experiment to scale.","topics":["DPI"],"paywalled":false},
+  {"title":"The Path to a Sovereign Tech Stack is Via a Commodified Tech Stack","venue":"Tech Policy Press","date":"2025-12-15","type":"op-ed","url":"https://www.techpolicy.press/the-path-to-a-sovereign-tech-stack-is-via-a-commodified-tech-stack/","coauthors":[],"summary":"Countries pursuing expensive, incompatible 'sovereign' tech stacks risk building gilded cages. Strategic standardization and commodification of cloud infrastructure, backed by procurement power, is the more effective route to digital sovereignty.","topics":["digital sovereignty","infrastructure"],"paywalled":false},
+  {"title":"A Bottom-Up Approach to Building a Climate Resilience Stack","venue":"UCL Institute for Innovation and Public Purpose","date":"2025-11-01","type":"report","url":"https://www.ucl.ac.uk/bartlett/publications/2025/nov/bottom-approach-building-climate-resilience-stack","coauthors":["Beatriz Vasconcellos","Liam Orme"],"summary":"Proposes the digital technologies and shared infrastructure — a 'climate resilience stack' — that could underpin climate monitoring and adaptation, built bottom-up from existing deployments. Prepared for COP30.","topics":["climate","DPI"],"paywalled":false},
+  {"title":"The Service Gap: Europe's International Digital Strategy 2025","venue":"The Lisbon Council","date":"2025-06-25","type":"white paper","url":"https://lisboncouncil.net/the-service-gap-europe-international-digital-strategy-2025/","coauthors":["Mike Bracken","Michelle Wronski"],"summary":"Responds to the EU's International Digital Strategy, arguing Europe's competitiveness and 'reliable partner' ambitions are undermined by a gap in actual digital service delivery capability.","topics":["Europe","digital government"],"paywalled":false},
+  {"title":"Learning From the Legacy of 18F","venue":"Lawfare","date":"2025-04-02","type":"op-ed","url":"https://www.lawfaremedia.org/article/learning-from-the-legacy-of-18f","coauthors":["Hillary Hartley"],"summary":"After the shutdown of 18F in March 2025, examines the unit's origins, what worked and what didn't, and lessons for future government digital service teams.","topics":["digital government","US"],"paywalled":false},
+  {"title":"The Economics of Shared Digital Infrastructures","venue":"UCL IIPP & Bennett Institute, Cambridge","date":"2025-03-01","type":"report","url":"https://www.ucl.ac.uk/bartlett/publications/2025/mar/economics-shared-digital-infrastructures","coauthors":["Diane Coyle","Beatriz Vasconcellos","Sumedha Deshmukh"],"summary":"Develops an economic framework for how governments should value, fund, and account for shared digital infrastructure. Has informed engagement with the World Bank, UK Treasury, and the G20 Digital Economy Working Group.","topics":["DPI","economics"],"paywalled":false},
+  {"title":"Digital Public Infrastructure: a framework for conceptualisation and measurement","venue":"UCL IIPP Working Paper Series","date":"2025-01-27","type":"working paper","url":"https://www.ucl.ac.uk/bartlett/publications/2025/jan/digital-public-infrastructure-framework-conceptualisation-and-measurement","coauthors":["Krisstina Rao"],"summary":"Uses a grounded-theory approach to define DPI's attributes across technology, public-interest values, and adoption context, plus the measurement framework underlying the DPI Map methodology.","topics":["DPI","measurement"],"paywalled":false},
+  {"title":"AI's Efficiency Wars Have Begun","venue":"Foreign Policy","date":"2025-02-05","type":"op-ed","url":"https://foreignpolicy.com/2025/02/05/deep-seek-china-us-artificial-intelligence-ai-arms-race/","coauthors":["Sarosh Nagar"],"summary":"On DeepSeek-R1's release and how dramatically cheaper inference shifts the US–China AI race from raw capability toward efficiency competition, with implications for governments everywhere.","topics":["AI","geopolitics"],"paywalled":true},
+  {"title":"Digital Public Infrastructure is the New Global Tech Bet — But Everyone's Betting on Something Different","venue":"Tech Policy Press","date":"2024-12-18","type":"op-ed","url":"https://www.techpolicy.press/digital-public-infrastructure-is-the-new-global-tech-bet-but-everyones-betting-on-something-different/","coauthors":["Beatriz Vasconcellos"],"summary":"Countries pursue DPI for divergent goals — financial inclusion, competition, economic integration. Uses Brazil's PIX and India's UPI to illustrate diverging outcomes and expectations.","topics":["DPI"],"paywalled":false},
+  {"title":"What is digital public infrastructure?","venue":"UCL IIPP Blog","date":"2023-04-05","type":"op-ed","url":"https://medium.com/iipp-blog/what-is-digital-public-infrastructure-6fbfa74f2f8c","coauthors":["Jordan Sandman"],"summary":"Defines DPI as society-wide digital capabilities essential to participation in society and markets, and argues public institutions should guarantee DPI is inclusive, foundational, interoperable, and publicly accountable.","topics":["DPI"],"paywalled":false},
+  {"title":"Best Practices for the Governance of Digital Public Goods","venue":"Harvard Kennedy School, Ash Center","date":"2022-04-01","type":"report","url":"https://www.hks.harvard.edu/publications/best-practices-governance-digital-public-goods","coauthors":["Leonie Bolte","Omayra Chuquihuara","Surabhi Hodigere"],"summary":"Identifies six best practices for governing open-source digital public goods, analyzed through Mark Moore's strategic triangle: public value, legitimacy and support, and operational capability.","topics":["digital public goods","governance"],"paywalled":false},
+  {"title":"Aadhaar: India's Big Experiment with Unique Identification (A & B)","venue":"Harvard Kennedy School Case Program","date":"2018-01-01","type":"teaching case","url":"https://case.hks.harvard.edu/aadhaar-indias-big-experiment-with-unique-identification-a/","coauthors":["Daniel Goldberg"],"summary":"Examines India's biometric ID system: its promise for service delivery and anti-corruption versus surveillance and exclusion risks.","topics":["digital identity","India"],"paywalled":true},
+  {"title":"UK Government Digital Service: Moving Beyond a Website","venue":"Harvard Kennedy School Case Program","date":"2017-01-01","type":"teaching case","url":"https://case.hks.harvard.edu/uk-government-digital-service-moving-beyond-a-website/","coauthors":["Daniel Goldberg"],"summary":"Charts the UK Government Digital Service's evolution from GOV.UK toward platform services, and the institutional battles that followed.","topics":["digital government","UK"],"paywalled":true}
+];
+
+const fmtDate = d => new Date(d + "T12:00:00").toLocaleDateString("en-US", { year: "numeric", month: "long" });
+const esc = s => s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+
+/* Four top-level categories, mapped from each entry's `type`.
+   Edit CATEGORY_ORDER to change the order sections appear in "By type" view. */
+const TYPE_TO_CATEGORY = {
+  "op-ed": "Articles & Opinion",
+  "journal article": "Academic Papers",
+  "working paper": "Academic Papers",
+  "report": "Reports & White Papers",
+  "white paper": "Reports & White Papers",
+  "teaching case": "Case Studies",
+  "chapter": "Books & Chapters",
+  "book": "Books & Chapters"
+};
+const CATEGORY_ORDER = ["Articles & Opinion", "Academic Papers", "Reports & White Papers", "Case Studies", "Books & Chapters"];
+
+let pubs = [];
+let viewMode = "date"; /* "date" | "type" */
+
+function boot(data) {
+pubs = [...data].sort((a,b) => b.date.localeCompare(a.date));
+pubs.forEach(p => p.category = TYPE_TO_CATEGORY[p.type] || "Other");
+
+/* Featured: explicitly flagged, else 3 most recent */
+const featured = pubs.filter(p => p.featured).slice(0,3);
+const feats = featured.length ? featured : pubs.slice(0,3);
+document.getElementById("featuredGrid").innerHTML = feats.map(p => `
+  <div class="feat-card">
+    <div class="venue-line">${esc(p.venue)} · ${fmtDate(p.date)}</div>
+    <h3><a href="${p.url}" target="_blank" rel="noopener">${esc(p.title)}</a></h3>
+    ${p.coauthors.length ? `<div class="authors">with ${esc(p.coauthors.join(", "))}</div>` : ""}
+    <p class="sum">${esc(p.summary)}</p>
+    <div class="meta">
+      <span class="chip type">${esc(p.type)}</span>
+      ${p.paywalled ? '<span class="chip paywall">paywalled — summary above</span>' : ""}
+    </div>
+  </div>`).join("");
+
+/* Populate filters */
+const types = CATEGORY_ORDER.filter(c => pubs.some(p => p.category === c));
+const topics = [...new Set(pubs.flatMap(p => p.topics))].sort();
+const years = [...new Set(pubs.map(p => p.date.slice(0,4)))].sort().reverse();
+const fill = (id, vals) => {
+  const sel = document.getElementById(id);
+  vals.forEach(v => { const o = document.createElement("option"); o.value = v; o.textContent = v; sel.appendChild(o); });
+};
+fill("fType", types); fill("fTopic", topics); fill("fYear", years);
+render();
+} /* end boot() */
+
+const $q = document.getElementById("q"), $t = document.getElementById("fType"),
+      $p = document.getElementById("fTopic"), $y = document.getElementById("fYear"),
+      $clear = document.getElementById("clearBtn");
+
+function render() {
+  const q = $q.value.trim().toLowerCase();
+  const active = q || $t.value || $p.value || $y.value;
+  $clear.hidden = !active;
+  const filtered = pubs.filter(p => {
+    if ($t.value && p.category !== $t.value) return false;
+    if ($p.value && !p.topics.includes($p.value)) return false;
+    if ($y.value && p.date.slice(0,4) !== $y.value) return false;
+    if (q) {
+      const hay = (p.title + " " + p.summary + " " + p.venue + " " + p.coauthors.join(" ") + " " + p.topics.join(" ")).toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+  document.getElementById("count").textContent =
+    filtered.length === pubs.length ? `${pubs.length} pieces` : `${filtered.length} of ${pubs.length}`;
+  const lib = document.getElementById("library");
+  if (!filtered.length) { lib.innerHTML = '<p class="empty">Nothing matches — try clearing a filter.</p>'; return; }
+
+  const card = p => `
+    <article class="pub">
+      <div class="venue-line">${esc(p.venue)} · ${fmtDate(p.date)}</div>
+      <h3><a href="${p.url}" target="_blank" rel="noopener">${esc(p.title)}</a></h3>
+      ${p.coauthors.length ? `<div class="authors">with ${esc(p.coauthors.join(", "))}</div>` : ""}
+      <p class="sum">${esc(p.summary)}</p>
+      <div class="meta">
+        <span class="chip type">${esc(p.type)}</span>
+        ${p.topics.map(t => `<span class="chip">${esc(t)}</span>`).join("")}
+        ${p.paywalled ? '<span class="chip paywall">paywalled — summary above</span>' : ""}
+      </div>
+    </article>`;
+
+  let html = "";
+  if (viewMode === "type") {
+    CATEGORY_ORDER.forEach(cat => {
+      const group = filtered.filter(p => p.category === cat);
+      if (!group.length) return;
+      html += `<h2 class="year">${cat} (${group.length})</h2>`;
+      group.forEach(p => html += card(p));
+    });
+    const other = filtered.filter(p => !CATEGORY_ORDER.includes(p.category));
+    if (other.length) {
+      html += `<h2 class="year">Other (${other.length})</h2>`;
+      other.forEach(p => html += card(p));
+    }
+  } else {
+    let curYear = "";
+    filtered.forEach(p => {
+      const y = p.date.slice(0,4);
+      if (y !== curYear) { curYear = y; html += `<h2 class="year">${y}</h2>`; }
+      html += card(p);
+    });
+  }
+  lib.innerHTML = html;
+}
+[$q,$t,$p,$y].forEach(el => el.addEventListener("input", render));
+$clear.addEventListener("click", () => { $q.value = ""; $t.value = ""; $p.value = ""; $y.value = ""; render(); });
+
+const $vd = document.getElementById("viewDate"), $vt = document.getElementById("viewType");
+function setView(mode) {
+  viewMode = mode;
+  $vd.classList.toggle("active", mode === "date");
+  $vt.classList.toggle("active", mode === "type");
+  render();
+}
+$vd.addEventListener("click", () => setView("date"));
+$vt.addEventListener("click", () => setView("type"));
+
+/* Data loading: publications.json is the single source of truth when hosted
+   (edit it to update the library — this file never needs to change).
+   The embedded PUBS array is only a fallback so the page also works when
+   opened directly from disk. */
+fetch("publications.json")
+  .then(r => r.ok ? r.json() : Promise.reject())
+  .then(j => boot(j.publications || j))
+  .catch(() => boot(PUBS));
+</script>
+</body>
+</html>
