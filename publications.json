@@ -2,6 +2,25 @@
   "_instructions": "This is the single source of truth for your library. Edit, correct, or replace entries here — David should verify all of these. Fields: title, venue, date (YYYY-MM-DD, use YYYY-01-01 if only year known), type (op-ed | journal article | report | working paper | teaching case | chapter | white paper), url, coauthors (array, empty if solo), summary (2-3 sentences, especially important for paywalled pieces), topics (array of tags), paywalled (true/false), featured (true to pin in the 'New & Notable' spotlight).",
   "publications": [
     {
+      "title": "Parting Clouds: Creating a Competitive Marketplace for Compute",
+      "venue": "Canadian Anti-Monopoly Project",
+      "date": "2026-06-02",
+      "type": "report",
+      "url": "https://antimonopoly.ca/parting-clouds-creating-a-competitive-marketplace-for-compute/",
+      "coauthors": [
+        "C. McCord",
+        "Keldon Bester (ed.)"
+      ],
+      "summary": "Three American firms control 85% of Canada's public cloud market. This report argues the most effective response is commoditization — making cloud infrastructure a fungible resource where interoperability standards let workloads move freely between providers — through procurement requirements, neutrality rules, egress-fee bans, and competition enforcement.",
+      "topics": [
+        "digital sovereignty",
+        "economics",
+        "infrastructure"
+      ],
+      "paywalled": false,
+      "featured": true
+    },
+    {
       "title": "Digital public infrastructure and the economics of public value: what is 'public' about DPI?",
       "venue": "Journal of Economic Policy Reform",
       "date": "2026-05-19",
@@ -54,6 +73,23 @@
       "featured": true
     },
     {
+      "title": "Digital Infrastructure",
+      "venue": "Finance & Development (IMF)",
+      "date": "2026-03-01",
+      "type": "journal article",
+      "url": "https://www.imf.org/en/publications/fandd/issues/2026/03/digital-infrastructure-diane-coyle",
+      "coauthors": [
+        "Beatriz Vasconcellos",
+        "Diane Coyle"
+      ],
+      "summary": "An article in the IMF's Finance & Development magazine making the case that shared digital systems — identity, payments, data exchange — should be treated as economic infrastructure, and exploring how governments should value, fund, and govern them. Draws on the authors' joint work on the economics of shared digital infrastructures. Open-access PDF available via UCL Discovery.",
+      "topics": [
+        "DPI",
+        "economics"
+      ],
+      "paywalled": false
+    },
+    {
       "title": "Teaching Public Service in the Digital Age: Collectively Building a Global Curriculum",
       "venue": "Information Polity",
       "date": "2026-01-23",
@@ -87,6 +123,24 @@
       "paywalled": false
     },
     {
+      "title": "A Bottom-Up Approach to Building a Climate Resilience Stack",
+      "venue": "UCL Institute for Innovation and Public Purpose",
+      "date": "2025-11-17",
+      "type": "report",
+      "url": "https://www.ucl.ac.uk/bartlett/publications/2025/nov/bottom-approach-building-climate-resilience-stack",
+      "coauthors": [
+        "Beatriz Vasconcellos",
+        "Richard Gevers",
+        "Liam Orme"
+      ],
+      "summary": "Proposes the digital technologies and shared infrastructure — a 'climate resilience stack' — that could underpin climate monitoring and adaptation, built bottom-up from existing deployments. Prepared for COP30.",
+      "topics": [
+        "climate",
+        "DPI"
+      ],
+      "paywalled": false
+    },
+    {
       "title": "2025 State of Digital Public Infrastructure Report",
       "venue": "UCL Institute for Innovation and Public Purpose",
       "date": "2025-11-01",
@@ -103,19 +157,53 @@
       "paywalled": false
     },
     {
-      "title": "A Bottom-Up Approach to Building a Climate Resilience Stack",
+      "title": "The DigiLocker Story: How India is Digitising its Documents",
       "venue": "UCL Institute for Innovation and Public Purpose",
-      "date": "2025-11-01",
-      "type": "report",
-      "url": "https://www.ucl.ac.uk/bartlett/publications/2025/nov/bottom-approach-building-climate-resilience-stack",
+      "date": "2025-10-20",
+      "type": "teaching case",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10223281",
       "coauthors": [
-        "Beatriz Vasconcellos",
-        "Liam Orme"
+        "Ritul Gaur"
       ],
-      "summary": "Proposes the digital technologies and shared infrastructure — a 'climate resilience stack' — that could underpin climate monitoring and adaptation, built bottom-up from existing deployments. Prepared for COP30.",
+      "summary": "A case study of DigiLocker, India's digital credentials and document platform, examining the scaling and governance choices behind one of the world's largest document-digitisation efforts. Free to download.",
       "topics": [
-        "climate",
-        "DPI"
+        "DPI",
+        "digital identity",
+        "India"
+      ],
+      "paywalled": false
+    },
+    {
+      "title": "Scaling Digital Infrastructure in a Siloed State: How the UK Government Designed and Financed GOV.UK Notify",
+      "venue": "UCL Institute for Innovation and Public Purpose",
+      "date": "2025-10-15",
+      "type": "teaching case",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10223280",
+      "coauthors": [
+        "Hannah White"
+      ],
+      "summary": "A case study of how the UK's Government Digital Service designed, financed, and measured GOV.UK Notify to prioritise universal public-sector adoption — an example of product thinking and platform strategy inside a siloed state. Free to download.",
+      "topics": [
+        "digital government",
+        "UK",
+        "infrastructure"
+      ],
+      "paywalled": false
+    },
+    {
+      "title": "Building Trust in Sharing Data: How the US DOT Built Supply Chain Resilience Through the FLOW Data Sharing Platform",
+      "venue": "UCL Institute for Innovation and Public Purpose",
+      "date": "2025-09-19",
+      "type": "teaching case",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10223263",
+      "coauthors": [
+        "Jordyn Fetter"
+      ],
+      "summary": "A case study of how the US Department of Transportation created FLOW, a voluntary data trust born of the 2021 West Coast port congestion crisis, and what it teaches about building trust in public-private data sharing. Free to download.",
+      "topics": [
+        "data",
+        "digital government",
+        "US"
       ],
       "paywalled": false
     },
@@ -235,6 +323,23 @@
         "digital identity",
         "DPI",
         "governance"
+      ],
+      "paywalled": false
+    },
+    {
+      "title": "India's National Urban Governance Platform: Leveraging Digital Infrastructure Thinking to Build Smart City Capabilities at Scale",
+      "venue": "UCL Institute for Innovation and Public Purpose",
+      "date": "2025-01-01",
+      "type": "teaching case",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10210964",
+      "coauthors": [
+        "Jordyn Fetter"
+      ],
+      "summary": "A case study of DIGIT and India's effort to build shared, open-source urban governance software capable of serving cities at national scale, and the institutional choices that effort required. Free to download.",
+      "topics": [
+        "DPI",
+        "India",
+        "digital government"
       ],
       "paywalled": false
     },
@@ -461,9 +566,9 @@
       "type": "report",
       "url": "https://ash.harvard.edu/publications/deploying-once-only-policy",
       "coauthors": [
-        "Naeha Rashid"
+        "Naeha Rashid (author)"
       ],
-      "summary": "A policy brief on the 'once-only' policy, under which citizens and businesses provide their data to government a single time and agencies share and reuse it to deliver better services. Examines how to deploy once-only in a privacy-enhancing way. Authored by Naeha Rashid as part of the digital HKS policy brief series led by Eaves.",
+      "summary": "A policy brief on the 'once-only' policy, under which citizens and businesses provide their data to government a single time and agencies share and reuse it to deliver better services. Examines how to deploy once-only in a privacy-enhancing way. Written by Naeha Rashid; edited by David Eaves as part of the digital HKS policy brief series.",
       "topics": [
         "data",
         "digital government",
@@ -506,6 +611,23 @@
       "paywalled": false
     },
     {
+      "title": "Open Data Around the World: North America, Australia & New Zealand",
+      "venue": "African Minds, in 'The State of Open Data: Histories and Horizons'",
+      "date": "2019-05-22",
+      "type": "chapter",
+      "url": "https://library.oapen.org/handle/20.500.12657/24884",
+      "coauthors": [
+        "Ben McGuire",
+        "et al."
+      ],
+      "summary": "A chapter taking stock of a decade of open data in North America, Australia, and New Zealand, in the volume that brought together over 60 authors to assess the open data movement's real progress and the issues shaping its future. Open access (CC BY).",
+      "topics": [
+        "open government",
+        "data"
+      ],
+      "paywalled": false
+    },
+    {
       "title": "The State of Digital Transformation (report series)",
       "venue": "digital HKS, Harvard Kennedy School",
       "date": "2018-10-01",
@@ -516,6 +638,22 @@
         "Lauren Lombardo"
       ],
       "summary": "An annual report series capturing insights from the digital services convening that Eaves co-hosted with Public Digital, bringing together leaders of national and subnational digital service teams from over 30 governments. The reports document shared challenges and emerging practice in digital transformation, including funding models, platform governance, talent, and service delivery.",
+      "topics": [
+        "digital government",
+        "state capacity"
+      ],
+      "paywalled": false
+    },
+    {
+      "title": "Moved by Meaning: Attracting, Retaining, and Managing Digital Talent in Government",
+      "venue": "SSRN",
+      "date": "2018-01-08",
+      "type": "working paper",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3089936",
+      "coauthors": [
+        "Aaron Ogle"
+      ],
+      "summary": "A case study of the City of Philadelphia's municipal technology team, exploring the factors that let a city government compete with the private sector for technical talent — and what happened when a change in administration brought a traditional tech vision back to the CIO's office.",
       "topics": [
         "digital government",
         "state capacity"
@@ -580,6 +718,19 @@
         "open government",
         "digital government",
         "governance"
+      ],
+      "paywalled": true
+    },
+    {
+      "title": "Seeing the Glass Half Full: John W. Holmes, Optimism, and the Making of Canadian Foreign Policy",
+      "venue": "International Journal",
+      "date": "2010-01-01",
+      "type": "journal article",
+      "url": "https://doi.org/10.1177/002070201006500206",
+      "coauthors": [],
+      "summary": "An essay on the diplomat and scholar John W. Holmes, arguing that his characteristic optimism was not naivety but a method — and one with lessons for how Canadian foreign policy gets made. Published in International Journal, 65(2), 339-347.",
+      "topics": [
+        "geopolitics"
       ],
       "paywalled": true
     }
