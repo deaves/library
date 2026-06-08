@@ -608,6 +608,25 @@
         "digital government",
         "governance"
       ],
+      "paywalled": false,
+      "pdf": "pdfs/deploying-once-only-policy.pdf"
+    },
+    {
+      "title": "The Analytics Playbook for Cities: A Navigational Tool for Understanding Data Analytics in Local Government",
+      "venue": "Ash Center, Harvard Kennedy School",
+      "date": "2020-08-01",
+      "type": "report",
+      "url": "https://library.eaves.ca/pdfs/analytics-playbook-for-cities.pdf",
+      "pdf": "pdfs/analytics-playbook-for-cities.pdf",
+      "coauthors": [
+        "Amen Ra Mashariki (author)",
+        "Nicolas Diaz (author)"
+      ],
+      "summary": "A practical playbook helping local governments understand data analytics, confront the trade-offs involved, and implement analytics programs effectively. Written by Amen Ra Mashariki and Nicolas Diaz; edited by David Eaves as part of the digital HKS policy brief series.",
+      "topics": [
+        "data",
+        "digital government"
+      ],
       "paywalled": false
     },
     {
@@ -849,6 +868,21 @@
         "geopolitics"
       ],
       "paywalled": true
+    },
+    {
+      "title": "From Middle to Model Power: Recharging Canada's Role in the World",
+      "venue": "Canada25",
+      "date": "2004-08-01",
+      "type": "report",
+      "url": "https://library.eaves.ca/pdfs/from-middle-to-model-power.pdf",
+      "pdf": "pdfs/from-middle-to-model-power.pdf",
+      "coauthors": [],
+      "summary": "A Canada25 report — David Eaves lead author — arguing that Canada should reinvent itself as a 'model power': a country that shapes international affairs by modelling solutions and mobilizing networks of citizens rather than relying on traditional middle-power diplomacy. Drawn from consultations with young Canadians across the country and abroad.",
+      "topics": [
+        "geopolitics",
+        "governance"
+      ],
+      "paywalled": false
     }
   ]
 }
