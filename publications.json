@@ -2,6 +2,37 @@
   "_instructions": "This is the single source of truth for your library. Edit, correct, or replace entries here — David should verify all of these. Fields: title, venue, date (YYYY-MM-DD, use YYYY-01-01 if only year known), type (op-ed | journal article | report | working paper | teaching case | chapter | white paper), url, coauthors (array, empty if solo), summary (2-3 sentences, especially important for paywalled pieces), topics (array of tags), paywalled (true/false), featured (true to pin in the 'New & Notable' spotlight).",
   "publications": [
     {
+      "title": "Cloud Is a Competitiveness Question: Build Utilities, Not Stacks",
+      "venue": "Eurogroup",
+      "date": "2026-06-11",
+      "type": "memo",
+      "url": "https://www.consilium.europa.eu/media/ymwlbvkh/cloud-interoperability-eurogroup-memo.pdf",
+      "summary": "A briefing note for the Eurogroup arguing that Europe's cloud debate, though framed around digital sovereignty, is really a question of competitiveness and growth. Rather than relying solely on US hyperscalers or spending billions on national clouds, the prize is a liquid, interoperable cloud market. Governments should make interoperability the binding condition of every public euro spent on cloud — starting with storage, where a de facto standard already exists.",
+      "topics": [
+        "digital sovereignty",
+        "economics",
+        "infrastructure",
+        "Europe"
+      ],
+      "paywalled": false,
+      "featured": true
+    },
+    {
+      "title": "NATO Needs Standardization on Cloud Services in AI Age",
+      "venue": "Foreign Policy",
+      "date": "2026-06-09",
+      "type": "op-ed",
+      "url": "https://foreignpolicy.com/2026/06/09/nato-cloud-computer-ai-iran-war/",
+      "summary": "The U.S. war against Iran revealed that the cloud — the rented stack of data centers, compute, and software services — is now core to military operations, not back-office IT, with peak daily usage of one Pentagon AI targeting system rising 4,425 percent during the campaign. This piece argues that NATO needs common standards for cloud services so allies can share data and compute, avoid vendor lock-in, and fight together in an AI-enabled age.",
+      "topics": [
+        "AI",
+        "geopolitics",
+        "infrastructure"
+      ],
+      "paywalled": true,
+      "featured": true
+    },
+    {
       "title": "Parting Clouds: Creating a Competitive Marketplace for Compute",
       "venue": "Canadian Anti-Monopoly Project",
       "date": "2026-06-02",
