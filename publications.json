@@ -2,6 +2,25 @@
   "_instructions": "This is the single source of truth for your library. Edit, correct, or replace entries here — David should verify all of these. Fields: title, venue, date (YYYY-MM-DD, use YYYY-01-01 if only year known), type (op-ed | journal article | report | working paper | teaching case | chapter | white paper), url, coauthors (array, empty if solo), summary (2-3 sentences, especially important for paywalled pieces), topics (array of tags), paywalled (true/false), featured (true to pin in the 'New & Notable' spotlight).",
   "publications": [
     {
+      "title": "Europe is tackling the cloud oligarchy. Why isn't Canada?",
+      "venue": "Financial Post",
+      "date": "2026-07-28",
+      "type": "op-ed",
+      "url": "https://financialpost.com/technology/europe-tackling-cloud-oligarchy-why-isnt-canada",
+      "coauthors": [
+        "Curtis McCord"
+      ],
+      "summary": "The European Commission moved in June to designate Amazon Web Services and Microsoft Azure as “gatekeepers,” giving itself new powers to discipline a cloud market in which the big three hyperscalers control more than 70 per cent of business in both Canada and Europe. Argues that Ottawa's instinct — a Major Projects Office tasked with standing up a “sovereign cloud,” and the $2-billion sovereign-infrastructure commitment in the AI for All strategy — risks having limited effect, because a domestic monopoly free to lock in clients and charge rents for worse service leaves Canadians no better off. The goal should instead be making every provider, Canadian and foreign, interchangeable: treating egress fees as abuse of dominance, using government purchasing power to require open standards, and pressing Europe and NATO toward a common one.",
+      "topics": [
+        "digital sovereignty",
+        "infrastructure",
+        "Canada",
+        "economics"
+      ],
+      "paywalled": false,
+      "featured": true
+    },
+    {
       "title": "Cloud Is a Competitiveness Question: Build Utilities, Not Stacks",
       "venue": "Eurogroup",
       "date": "2026-06-11",
@@ -41,7 +60,7 @@
       "type": "report",
       "url": "https://antimonopoly.ca/parting-clouds-creating-a-competitive-marketplace-for-compute/",
       "coauthors": [
-        "C. McCord",
+        "Curtis McCord",
         "Keldon Bester (ed.)"
       ],
       "summary": "Three American firms control 85% of Canada's public cloud market. This report argues the most effective response is commoditization — making cloud infrastructure a fungible resource where interoperability standards let workloads move freely between providers — through procurement requirements, neutrality rules, egress-fee bans, and competition enforcement.",
