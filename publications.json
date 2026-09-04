@@ -612,7 +612,7 @@
       "venue": "Harvard Kennedy School, Ash Center",
       "date": "2022-04-01",
       "type": "report",
-      "url": "https://www.hks.harvard.edu/publications/best-practices-governance-digital-public-goods",
+      "url": "https://library.eaves.ca/pdfs/best-practices-governance-digital-public-goods.pdf",
       "coauthors": [
         "Leonie Bolte",
         "Omayra Chuquihuara",
@@ -624,7 +624,8 @@
         "governance"
       ],
       "paywalled": false,
-      "pdf": "pdfs/best-practices-governance-digital-public-goods.pdf"
+      "pdf": "pdfs/best-practices-governance-digital-public-goods.pdf",
+      "original_url": "https://www.hks.harvard.edu/publications/best-practices-governance-digital-public-goods"
     },
     {
       "title": "Funding Digital Government Initiatives",
@@ -650,7 +651,7 @@
       "venue": "Ash Center, Harvard Kennedy School",
       "date": "2020-11-01",
       "type": "report",
-      "url": "https://ash.harvard.edu/publications/deploying-once-only-policy",
+      "url": "https://library.eaves.ca/pdfs/deploying-once-only-policy.pdf",
       "coauthors": [
         "Naeha Rashid (author)"
       ],
@@ -661,7 +662,8 @@
         "governance"
       ],
       "paywalled": false,
-      "pdf": "pdfs/deploying-once-only-policy.pdf"
+      "pdf": "pdfs/deploying-once-only-policy.pdf",
+      "original_url": "https://ash.harvard.edu/publications/deploying-once-only-policy"
     },
     {
       "title": "The Analytics Playbook for Cities: A Navigational Tool for Understanding Data Analytics in Local Government",
