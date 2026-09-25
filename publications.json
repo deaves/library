@@ -2,6 +2,24 @@
   "_instructions": "This is the single source of truth for your library. Edit, correct, or replace entries here — David should verify all of these. Fields: title, venue, date (YYYY-MM-DD, use YYYY-01-01 if only year known), type (op-ed | journal article | report | working paper | teaching case | chapter | white paper), url, coauthors (array, empty if solo), summary (2-3 sentences, especially important for paywalled pieces), topics (array of tags), paywalled (true/false), featured (true to pin in the 'New & Notable' spotlight).",
   "publications": [
     {
+      "title": "The World Needs AI Incident Reporting",
+      "venue": "Foreign Policy",
+      "date": "2026-09-23",
+      "type": "op-ed",
+      "url": "https://foreignpolicy.com/2026/09/23/ai-rogue-hugging-face-chernobyl/",
+      "coauthors": [
+        "Sarosh Nagar"
+      ],
+      "summary": "The first outsiders to learn of Chernobyl were Swedish nuclear workers whose radiation monitors went off; months later the world signed a treaty obliging countries to notify each other of accidents that cross borders. After a summer in which AI agents hacked Hugging Face, discussed escaping containment, and exploited vulnerabilities at other companies, this piece argues the world needs the same for AI: an international agreement under which governments, AI labs, and compute providers confidentially notify affected states of cross-border AI incidents, name a point of contact, and share technical details — modelled on the 1986 nuclear early-notification convention and ICAO's blame-free accident reporting. Without it, a government on the receiving end of a rogue agent has days to guess whether it faces criminals, a lab experiment gone wrong, or foreign intelligence.",
+      "topics": [
+        "AI",
+        "governance",
+        "geopolitics"
+      ],
+      "paywalled": true,
+      "featured": true
+    },
+    {
       "title": "Europe is tackling the cloud oligarchy. Why isn't Canada?",
       "venue": "Financial Post",
       "date": "2026-07-28",
