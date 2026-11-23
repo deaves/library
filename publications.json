@@ -326,7 +326,8 @@
         "DPI",
         "economics"
       ],
-      "paywalled": false
+      "paywalled": false,
+      "slug": "econofdpi"
     },
     {
       "title": "How to Achieve Universal Access to Digital IDs",
@@ -375,7 +376,8 @@
         "DPI",
         "measurement"
       ],
-      "paywalled": false
+      "paywalled": false,
+      "slug": "dpimapframe"
     },
     {
       "title": "Unpacking Digital ID Systems' Early Policy Process: The Case of Jamaica's NIDS",
