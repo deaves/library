@@ -230,7 +230,9 @@
       "topics": [
         "DPI"
       ],
-      "paywalled": false
+      "paywalled": false,
+      "slug": "statedpi2025",
+      "slug_allow_year": true
     },
     {
       "title": "The DigiLocker Story: How India is Digitising its Documents",
