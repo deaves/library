@@ -308,6 +308,34 @@ def outputs(pubs):
     return out
 
 
+def png_pixels(data):
+    """Header and decompressed image data of a PNG, so two files that differ only
+    in how zlib compressed them (it varies by machine) count as the same."""
+    import struct
+    import zlib
+    if data[:8] != b"\x89PNG\r\n\x1a\n":
+        return data
+    i, head, idat = 8, [], b""
+    while i < len(data):
+        n, kind = struct.unpack(">I4s", data[i:i + 8])
+        body = data[i + 8:i + 8 + n]
+        if kind == b"IDAT":
+            idat += body
+        elif kind in (b"IHDR", b"PLTE", b"tRNS"):
+            head.append(kind + body)
+        i += 12 + n
+    return b"".join(head) + zlib.decompress(idat)
+
+
+def unchanged(f, new):
+    if not f.exists():
+        return False
+    old = f.read_bytes()
+    if old == new:
+        return True
+    return f.suffix == ".png" and png_pixels(old) == png_pixels(new)
+
+
 def main():
     check = "--check" in sys.argv
     try:
@@ -317,7 +345,7 @@ def main():
     except BuildError as e:
         print("BUILD FAILED\n" + str(e), file=sys.stderr)
         return 1
-    stale = [f for f, b in files.items() if not f.exists() or f.read_bytes() != b]
+    stale = [f for f, b in files.items() if not unchanged(f, b)]
     if check:
         if stale:
             print("Out of date (run python3 build.py):\n" + "\n".join(str(f.relative_to(ROOT)) for f in stale))
