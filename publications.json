@@ -805,6 +805,25 @@
       "paywalled": false
     },
     {
+      "title": "Digital Service Units: A Maturity Model",
+      "venue": "digital HKS, Harvard Kennedy School",
+      "date": "2018-09-27",
+      "type": "report",
+      "url": "https://library.eaves.ca/pdfs/maturity-model-2-pager.pdf",
+      "pdf": "pdfs/maturity-model-2-pager.pdf",
+      "original_url": "https://medium.com/digitalhks/part-2-proposing-a-maturity-model-for-digital-services-9b1d429699e7",
+      "coauthors": [
+        "Ben McGuire"
+      ],
+      "summary": "A two-page maturity model for public-sector digital service units, developed from the 2018 State of Digital Transformation convening of government digital teams at Harvard Kennedy School. It sets out what low, medium, high and future-state maturity look like across six areas: political environment, institutional capacity, delivery capability, skills and hiring, user-centred design, and cross-government platforms. Teams can use it to place themselves and see what the next stage looks like.",
+      "topics": [
+        "digital government",
+        "state capacity"
+      ],
+      "paywalled": false,
+      "slug": "maturitymodel"
+    },
+    {
       "title": "Moved by Meaning: Attracting, Retaining, and Managing Digital Talent in Government",
       "venue": "SSRN",
       "date": "2018-01-08",
