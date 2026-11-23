@@ -984,6 +984,67 @@
       "slug": "afterthecollapse"
     },
     {
+      "title": "Using the Tools of the 21st Century: Open Data and Wikis",
+      "venue": "Emond Montgomery, in 'Approaching Public Administration'",
+      "date": "2010-12-01",
+      "type": "chapter",
+      "url": "https://emond.ca/Store/Books/Approaching-Public-Administration-Core-Debates-an",
+      "coauthors": [],
+      "summary": "A chapter on open data and wikis as tools for public administration, written for Approaching Public Administration: Core Debates and Emerging Issues, a university textbook edited by Roberto P. Leone and Frank L. K. Ohemeng.",
+      "topics": [
+        "open government",
+        "data",
+        "digital government"
+      ],
+      "paywalled": true
+    },
+    {
+      "title": "Missing the Link: How the Internet Is Saving Journalism",
+      "venue": "Emond Montgomery, in 'The New Journalist'",
+      "date": "2010-06-01",
+      "type": "chapter",
+      "url": "https://eavesca.wordpress.com/wp-content/uploads/2013/09/missing-the-link-eaves-and-owen.pdf",
+      "coauthors": [
+        "Taylor Owen"
+      ],
+      "summary": "Written as a response to Robert Kuttner's Columbia Journalism Review argument that print-digital hybrids would ensure newspapers' survival, the piece is critical of that model and argues that newspapers' decline is a sign of democracy's health, not a symptom of its death. It was published as a chapter in The New Journalist: Roles, Skills, and Critical Thinking, a journalism textbook edited by Paul Benedetti, Tim Currie and Kim Kierans. The linked PDF is the earlier version released online in 2009.",
+      "topics": [
+        "media"
+      ],
+      "paywalled": false
+    },
+    {
+      "title": "Creating Municipalities that Work Like the Web",
+      "venue": "Municipal Interface",
+      "date": "2009-11-01",
+      "type": "op-ed",
+      "url": "https://eaves.ca/2009/12/08/muniforge-creating-municipalities-that-work-like-the-web/",
+      "coauthors": [],
+      "summary": "Published in the Municipal Information Systems Association's journal, this article argues that if governments applied open source licences to the software they develop or pay to develop, they could save hundreds of millions, and more likely billions, of dollars a year. Starting from Vancouver's 'Open 3' motion, it proposes a central platform where cities share and collaborate on their software's source code and documentation, with the largest gains for smaller municipalities.",
+      "topics": [
+        "open government",
+        "digital government",
+        "Canada"
+      ],
+      "paywalled": false
+    },
+    {
+      "title": "Progressivism's End",
+      "venue": "Literary Review of Canada",
+      "date": "2008-09-01",
+      "type": "op-ed",
+      "url": "https://reviewcanada.ca/magazine/2008/09/progressivisms-end/",
+      "coauthors": [
+        "Taylor Owen"
+      ],
+      "summary": "The lead essay in the September 2008 issue. It argues that Barack Obama's candidacy points to a wider political reconfiguration, one he is as much a product of as a catalyst for, and that progressive politics has been undermined from the left as well as the right.",
+      "topics": [
+        "politics",
+        "Canada"
+      ],
+      "paywalled": false
+    },
+    {
       "title": "Seeing the Glass Half Full: John W. Holmes, Optimism, and the Making of Canadian Foreign Policy",
       "venue": "International Journal",
       "date": "2010-01-01",
