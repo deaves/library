@@ -53,7 +53,8 @@
         "Europe"
       ],
       "paywalled": false,
-      "featured": true
+      "featured": true,
+      "slug": "eurogroupmemo"
     },
     {
       "title": "NATO Needs Standardization on Cloud Services in AI Age",
@@ -88,7 +89,8 @@
         "infrastructure"
       ],
       "paywalled": false,
-      "featured": true
+      "featured": true,
+      "slug": "cloudcompetition"
     },
     {
       "title": "Digital public infrastructure and the economics of public value: what is 'public' about DPI?",
@@ -106,7 +108,8 @@
         "economics"
       ],
       "paywalled": false,
-      "featured": true
+      "featured": true,
+      "slug": "dpipublicvalue"
     },
     {
       "title": "Governments Can't Agree on What AI Actually Is",
@@ -157,7 +160,8 @@
         "DPI",
         "economics"
       ],
-      "paywalled": false
+      "paywalled": false,
+      "slug": "imf-dpi"
     },
     {
       "title": "Teaching Public Service in the Digital Age: Collectively Building a Global Curriculum",
@@ -176,7 +180,8 @@
         "digital government",
         "education"
       ],
-      "paywalled": false
+      "paywalled": false,
+      "slug": "teachingdigital"
     },
     {
       "title": "The Path to a Sovereign Tech Stack is Via a Commodified Tech Stack",
@@ -208,7 +213,8 @@
         "climate",
         "DPI"
       ],
-      "paywalled": false
+      "paywalled": false,
+      "slug": "climatestack"
     },
     {
       "title": "2025 State of Digital Public Infrastructure Report",
@@ -241,7 +247,8 @@
         "digital identity",
         "India"
       ],
-      "paywalled": false
+      "paywalled": false,
+      "slug": "digilockercase"
     },
     {
       "title": "Scaling Digital Infrastructure in a Siloed State: How the UK Government Designed and Financed GOV.UK Notify",
@@ -258,7 +265,8 @@
         "UK",
         "infrastructure"
       ],
-      "paywalled": false
+      "paywalled": false,
+      "slug": "govuknotifycase"
     },
     {
       "title": "Building Trust in Sharing Data: How the US DOT Built Supply Chain Resilience Through the FLOW Data Sharing Platform",
@@ -275,7 +283,8 @@
         "digital government",
         "US"
       ],
-      "paywalled": false
+      "paywalled": false,
+      "slug": "flowdatacase"
     },
     {
       "title": "The Service Gap: Europe's International Digital Strategy 2025",
@@ -292,7 +301,8 @@
         "Europe",
         "digital government"
       ],
-      "paywalled": false
+      "paywalled": false,
+      "slug": "servicegap"
     },
     {
       "title": "Learning From the Legacy of 18F",
@@ -396,7 +406,8 @@
         "DPI",
         "governance"
       ],
-      "paywalled": false
+      "paywalled": false,
+      "slug": "jamaicanids"
     },
     {
       "title": "India's National Urban Governance Platform: Leveraging Digital Infrastructure Thinking to Build Smart City Capabilities at Scale",
@@ -413,7 +424,8 @@
         "India",
         "digital government"
       ],
-      "paywalled": false
+      "paywalled": false,
+      "slug": "urbandpicase"
     },
     {
       "title": "What Is Digital Public Infrastructure and Why Does It Matter?",
@@ -478,14 +490,15 @@
         "DPI",
         "data"
       ],
-      "paywalled": false
+      "paywalled": false,
+      "slug": "ai-dpi"
     },
     {
       "title": "Leveraging Digital Public Infrastructures for the Common Good in Brazil",
       "venue": "UCL IIPP Working Paper Series",
       "date": "2024-11-20",
       "type": "working paper",
-      "url": "https://www.ucl.ac.uk/bartlett/public-purpose/publications/2024/nov/leveraging-digital-public-infrastructures-common-good",
+      "url": "https://www.ucl.ac.uk/bartlett/publications/2024/nov/leveraging-digital-public-infrastructures-common-good",
       "coauthors": [
         "Mariana Mazzucato",
         "Giulia Pagliarini"
@@ -496,7 +509,8 @@
         "economics",
         "governance"
       ],
-      "paywalled": false
+      "paywalled": false,
+      "slug": "brazildpi"
     },
     {
       "title": "The Narrow Corridor and the Future of Digital Government",
@@ -544,7 +558,8 @@
         "DPI",
         "economics"
       ],
-      "paywalled": false
+      "paywalled": false,
+      "slug": "dpifinancing"
     },
     {
       "title": "AI Procurement Checklists: Revisiting Implementation in the Age of AI Governance",
@@ -563,7 +578,8 @@
         "governance",
         "digital government"
       ],
-      "paywalled": false
+      "paywalled": false,
+      "slug": "aiprocurement"
     },
     {
       "title": "David Eaves on the Promise and Pitfalls of Digital Government",
@@ -595,7 +611,8 @@
         "governance",
         "open government"
       ],
-      "paywalled": false
+      "paywalled": false,
+      "slug": "t20dpgsustainability"
     },
     {
       "title": "What is digital public infrastructure?",
@@ -736,7 +753,8 @@
         "payments",
         "DPI"
       ],
-      "paywalled": true
+      "paywalled": true,
+      "slug": "paymentsdpicase"
     },
     {
       "title": "Defining Public Interest Technology",
@@ -755,7 +773,8 @@
         "governance",
         "education"
       ],
-      "paywalled": false
+      "paywalled": false,
+      "slug": "publicinteresttech"
     },
     {
       "title": "Government as a Platform: How Policy Makers Should Think about the Foundations of Digital Public Infrastructure",
@@ -773,7 +792,8 @@
         "digital government",
         "governance"
       ],
-      "paywalled": false
+      "paywalled": false,
+      "slug": "govplatform"
     },
     {
       "title": "Open Data Around the World: North America, Australia & New Zealand",
@@ -790,7 +810,8 @@
         "open government",
         "data"
       ],
-      "paywalled": false
+      "paywalled": false,
+      "slug": "opendataworld"
     },
     {
       "title": "The State of Digital Transformation (report series)",
@@ -807,7 +828,9 @@
         "digital government",
         "state capacity"
       ],
-      "paywalled": false
+      "paywalled": false,
+      "slug": "stateofdt2018",
+      "slug_allow_year": true
     },
     {
       "title": "Digital Service Units: A Maturity Model",
@@ -842,7 +865,8 @@
         "digital government",
         "state capacity"
       ],
-      "paywalled": false
+      "paywalled": false,
+      "slug": "movedbymeaning"
     },
     {
       "title": "Aadhaar: India's Big Experiment with Unique Identification (A & B)",
@@ -858,7 +882,8 @@
         "digital identity",
         "India"
       ],
-      "paywalled": true
+      "paywalled": true,
+      "slug": "aadhaarcase"
     },
     {
       "title": "Cracking the Monolith: California's Child Welfare Services Disrupts Technology Procurement (A & B)",
@@ -875,7 +900,8 @@
         "US",
         "state capacity"
       ],
-      "paywalled": true
+      "paywalled": true,
+      "slug": "cwsagilecase"
     },
     {
       "title": "Do We Still Need Systems Integrators?",
@@ -905,7 +931,8 @@
         "digital government",
         "UK"
       ],
-      "paywalled": true
+      "paywalled": true,
+      "slug": "gdscase"
     },
     {
       "title": "Hacking Bureaucracy: Reimagining California's Food Stamp Program in the Digital Age",
@@ -921,7 +948,8 @@
         "digital government",
         "US"
       ],
-      "paywalled": true
+      "paywalled": true,
+      "slug": "calfreshcase"
     },
     {
       "title": "Lies, Damned Lies, and Open Data",
@@ -950,7 +978,8 @@
         "digital government",
         "governance"
       ],
-      "paywalled": true
+      "paywalled": true,
+      "slug": "afterthecollapse"
     },
     {
       "title": "Seeing the Glass Half Full: John W. Holmes, Optimism, and the Making of Canadian Foreign Policy",
@@ -963,7 +992,8 @@
       "topics": [
         "geopolitics"
       ],
-      "paywalled": true
+      "paywalled": true,
+      "slug": "glasshalffull"
     },
     {
       "title": "From Middle to Model Power: Recharging Canada's Role in the World",

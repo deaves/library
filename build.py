@@ -14,7 +14,8 @@ Outputs:
   qr/<slug>.png     the same, high resolution for print
 
 Slug rules (enforced here, so a mistake fails the build instead of going live):
-  - lowercase letters, digits and single hyphens only; no dates
+  - lowercase letters, digits and single hyphens only; no dates (unless the
+    entry sets "slug_allow_year": true, a deliberate one-off)
   - unique across all entries, slugs and aliases together
   - must not clash with a real file or folder in the repo (pdfs, logos, ...)
   - permanent: a slug page that was published can never vanish. If an entry
@@ -85,7 +86,7 @@ def validate(pubs):
             if not isinstance(s, str) or not SLUG_RE.match(s):
                 errors.append(f"{label}: slug '{s}' must be lowercase letters, digits and single hyphens")
                 continue
-            if DATE_RE.search(s):
+            if DATE_RE.search(s) and not p.get("slug_allow_year"):
                 errors.append(f"{label}: slug '{s}' looks like it contains a year; slugs carry no dates")
             if s in seen:
                 errors.append(f"slug '{s}' is used twice ({seen[s]} and {label})")
