@@ -1,0 +1,51 @@
+# Runs build.py on every push that touches the library data or the build.
+# If the generated files (slug pages, QR codes, the index fallback) are out of
+# date, it regenerates them and commits the result. If publications.json breaks
+# a rule (bad slug, duplicate, removed slug, missing coauthors...), the run fails
+# with the reason, and GitHub emails the person who pushed.
+name: Build slug pages and QR codes
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - publications.json
+      - build.py
+      - index.html
+      - .github/workflows/build.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: build
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install segno==1.6.6
+      - run: python3 build.py
+      - name: Commit regenerated files, if any
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Generated files already up to date."
+          else
+            git config user.name "library build"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Build: regenerate slug pages and QR codes"
+            git push
+            # A push made with the workflow's own token may not start a Pages
+            # rebuild by itself, so ask for one explicitly.
+            gh api -X POST "repos/${{ github.repository }}/pages/builds" || echo "Pages rebuild request failed; the next push will publish."
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}
