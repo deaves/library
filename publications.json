@@ -645,7 +645,8 @@
       ],
       "paywalled": false,
       "pdf": "pdfs/best-practices-governance-digital-public-goods.pdf",
-      "original_url": "https://www.hks.harvard.edu/publications/best-practices-governance-digital-public-goods"
+      "original_url": "https://www.hks.harvard.edu/publications/best-practices-governance-digital-public-goods",
+      "slug": "dpgovernance"
     },
     {
       "title": "Funding Digital Government Initiatives",
@@ -683,7 +684,8 @@
       ],
       "paywalled": false,
       "pdf": "pdfs/deploying-once-only-policy.pdf",
-      "original_url": "https://ash.harvard.edu/publications/deploying-once-only-policy"
+      "original_url": "https://ash.harvard.edu/publications/deploying-once-only-policy",
+      "slug": "onceonly"
     },
     {
       "title": "The Analytics Playbook for Cities: A Navigational Tool for Understanding Data Analytics in Local Government",
@@ -701,7 +703,8 @@
         "data",
         "digital government"
       ],
-      "paywalled": false
+      "paywalled": false,
+      "slug": "analyticsplaybook"
     },
     {
       "title": "Teaching Public Service in the Digital Age: Syllabus Lectures",
@@ -975,7 +978,8 @@
         "geopolitics",
         "governance"
       ],
-      "paywalled": false
+      "paywalled": false,
+      "slug": "modelpower"
     }
   ]
 }
